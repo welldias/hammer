@@ -1,0 +1,2 @@
+add_executable(hello_hammer hello_hammer.c)
+target_link_libraries(hello_hammer PRIVATE hammer_static hammer_warnings)
